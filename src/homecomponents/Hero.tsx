@@ -20,8 +20,8 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={150}
               >
-                ML Based Face Liveness Detection<br className="max-lg:hidden" />
-                captcha system.
+                ML Based Human Detection<br className="max-lg:hidden" />
+                Captcha System.
               </h1>
               <div className="mx-auto max-w-3xl">
                 <p
@@ -58,64 +58,9 @@ export default function HeroHome() {
               </div>
             </div>
             {/* Hero image */}
-            <div
-              className="mx-auto max-w-3xl"
-              data-aos="zoom-y-out"
-              data-aos-delay={600}
-            >
-              <div className="relative aspect-video rounded-2xl bg-gray-900 px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.300/.8),transparent)1]">
-                <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,_theme(colors.gray.600)_4.5px,_transparent_0)] after:w-[41px]">
-                  <span className="text-[13px] font-medium text-white">
-                    Team Wizzers
-                  </span>
-                </div>
-                <div className="font-mono text-gray-500 [&_span]:opacity-0 flex flex-row gap-2">
+            
   
-                  <div style={{ width: '100%', height: '500px', overflow: 'hidden' }}>
-                      <iframe
-                        src="https://docs.google.com/presentation/d/1jgqBtZwA-DtpQgMOnwpYNM_4X2tIa6U2/embed?start=false&loop=false&delayms=3000"
-                        frameBorder="0"
-                        width="100%"
-                        height="100%"
-                        allowFullScreen
-                      >
-                      </iframe>
-                  </div>
-  
-                  </div>
-              </div>
-            </div>
-  
-            <div
-              className="mx-auto max-w-3xl mt-10"
-              data-aos="zoom-y-out"
-              data-aos-delay={600}
-            >
-              <div className="relative aspect-video rounded-2xl bg-gray-900 px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.300/.8),transparent)1]">
-                <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,_theme(colors.gray.600)_4.5px,_transparent_0)] after:w-[41px]">
-                  <span className="text-[13px] font-medium text-white">
-                    Demo Video
-                  </span>
-                </div>
-                {/* <div className="font-mono text-gray-500 [&_span]:opacity-0 flex flex-row gap-2"> */}
-  
-                <div className="font-mono text-gray-500 [&_span]:opacity-0 flex flex-row gap-2">
-                  <div className="w-[200%] h-[50vh]">
-                    <iframe
-                      src="https://www.youtube.com/embed/GPdHT4alMbU"
-                      frameBorder="0"
-                      width="100%"
-                      height="100%"
-                      allowFullScreen
-                      title="YouTube video"
-                    ></iframe>
-                  {/* </div> */}
-                  </div>
-
-  
-                  </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
